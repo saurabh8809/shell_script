@@ -1,7 +1,5 @@
 # Execute this script after the completion of execution of nagios_server_ubuntu.sh 
-
 # The script will ask some details about for the client please provide that when it ask for that
-
 # This script will register your client in nagios server 
 
 echo "
