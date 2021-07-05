@@ -3,6 +3,7 @@ then
   echo 'You are root.'
 else
   echo 'You are not root please run the script with root privilege.'
+  exit 1
 fi
 
 read -p 'Enter the password to use for the nagiosadmin account: ' PASSWORD
