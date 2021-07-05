@@ -3,10 +3,11 @@ then
   echo 'You are root.'
 else
   echo 'You are not root please run the script with root privilege.'
-  exit 1
 fi
 
 read -p 'Enter the password to use for the nagiosadmin account: ' PASSWORD
+
+read -p 'Enter email id for configuration: ' EMAIL
 
 echo "
 *************************************************
@@ -98,15 +99,8 @@ echo 'define command{
 }'  >> /usr/local/nagios/etc/objects/commands.cfg
 
 
-# Below line may be work after nrpe installation
-
-#echo 'define command{
-#        command_name check_nrpe
-#        command_line $USER1$/check_nrpe -H $HOSTADDRESS$ -c $ARG1$
-#}'  >> /usr/local/nagios/etc/objects/commands.cfg
-
 sed -i '51s/^#//' /usr/local/nagios/etc/nagios.cfg
-sed -i 's/nagios@localhost/srbhkumar594@gmail.com/' /usr/local/nagios/etc/objects/contacts.cfg
+sed -i "s/nagios@localhost/${EMAIL}/" /usr/local/nagios/etc/objects/contacts.cfg
 
 
 touch /usr/local/nagios/user-passwd
