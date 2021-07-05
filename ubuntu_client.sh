@@ -4,7 +4,7 @@
 # execute the add_client_to_nagios_server.sh on nagios server for 
 # accessing this server details from nagios server
 # 
-
+#
 
 echo "
 *************************************************
