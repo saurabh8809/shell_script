@@ -1,6 +1,5 @@
 # This script will install nagios server on ubuntnu machine
 
-
 if [[ "${UID}" -eq 0 ]]
 then
   echo 'You are root.'
