@@ -1,5 +1,5 @@
 # use this script to setup nagios client on Red Hat based linux distribution
-# :-)
+# :-) :-)
 
 yum install -y gcc glibc glibc-common openssl openssl-devel perl 
 yum install wget -y
