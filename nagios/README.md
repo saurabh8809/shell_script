@@ -58,4 +58,4 @@ ________________________________________________________________________________
 
 2 - Then run the script with sudo privilege and follow the script instruction.
 
- 
+# if your are facing any issue you can contact me on my emain srbhkumar594@gmail.com 
