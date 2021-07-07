@@ -7,7 +7,6 @@ echo "
 *********************************************************************
 
 "
-
   
 echo 'Enter the hostname for linux client: '
 read -e HOST
