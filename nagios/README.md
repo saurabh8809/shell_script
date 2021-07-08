@@ -52,10 +52,10 @@ ________________________________________________________________________________
 
 ______________________________________________________________________________________________________
 
-# You need to run this script [ add_client_to_nagios_server.sh ]  on nagios server for adding client to nagios server
+# You need to run this script [ add_client_to_nagios_server.sh ]  on nagios server for adding client in nagios server
 
 1 - Give executable permision to add_client_to_nagios_server.sh
 
 2 - Then run the script with sudo privilege and follow the script instruction.
 
-# if your are facing any issue you can contact me on my emain srbhkumar594@gmail.com 
+# if your are facing any issue you can contact me on my email srbhkumar594@gmail.com 
