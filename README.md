@@ -5,7 +5,7 @@
     nagios folder. Please check it and let me know if I can help you in any way.
 
 
-2 - you second script for automate the installation of wordpress in redhat based os 
+2 - you can use second script of this repository for automate the installation of wordpress in redhat based os 
 
 
 
