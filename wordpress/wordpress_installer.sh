@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# this script will install apche, mysql, PHP 7.4 and wordpress
+# this script will install apache, mysql, PHP 7.4 and wordpress
 
 # use this script to automate wordpress installation on redhat based os
 
