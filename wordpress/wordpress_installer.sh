@@ -170,7 +170,7 @@ DATABASE PASSWORD = Wordpress@123
 
 echo "
 
-	You can open wordpress now using your this machine ip like 
+	You can open wordpress now using your this machine ip  
 	
 
 	Please find your wordpress deatails inside [wordpress_credential] file of your home directory..
