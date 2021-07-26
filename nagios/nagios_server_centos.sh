@@ -30,7 +30,7 @@ echo "
 *                                               *
 *************************************************
 "
-
+cd ~
 
 wget https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.4.5.tar.gz
 
